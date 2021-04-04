@@ -195,7 +195,7 @@ console.log(shopDomain);
 checkoutButton[0].onclick = (e) => {
   e.preventDefault();
   axios
-    .post("https://07472247e7bb.ngrok.io/custom-checkout", {
+    .post("https://0d745205da7e.ngrok.io/custom-checkout", {
       // or 'PUT'
       products,
       shopDomain,
